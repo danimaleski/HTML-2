@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lists, Table and Form</title>
+</head>
+<body bgcolor="#C6E2FF">
+<form action="" method="post" target="_blank">
+<h2> FILMES </h2>
+
+<h3>10 melhores filmes segundo o IMDB</h3>
+
+<ol>
+<li>Um sonho de Liberdade</li>
+<li>O Poderoso Chefão (I e II)</li>
+<li>Batman - O Cavaleiro das Trevas</li>
+<li>12 Homens e uma Sentença</li>
+<li>A Lista de Schindler</li>
+<li>Pulp Fiction: Tempo de Violência</li>
+<li>O Senhor dos Anéis (I, II e III)</li>
+<li>Três homens em Conflito</li>
+<li>Clube da Luta</li>
+<li>Forrest Gump: O Contador de Histórias</li>
+</ol>
+
+<h3>5 Filmes de Romance</h3>
+
+<ul>
+<li type=square>Para Todos os Garotos que Já Amei</li>
+<li>Simplesmente Acontece</li>
+<li type=square>A Barraca do Beijo</li>
+<li>O Melhor de Mim</li>
+<li type=square>Perfeita para Você</li>
+</ul>
+
+<h3>Filmes baseados em fatos reais</h3>
+
+<ol type="I">
+ <li>Sempre ao Seu Lado</li>
+ <li>Spotlight - Segredos Revelados</li>
+ <li>Intocáveis</li>
+  <li>À Procura da Felicidade</li>
+  <li>Prenda-me se for Capaz</li>
+</ol>
+
+<h3>Filmes ganhadores do Oscar 2019</h3>
+
+<dl>
+  <dl>
+      <dt><b>- Green Book: O Guia </b></dt>
+      <dd>Melhor filme</dd>
+      <dt><b>- Infiltrado na Klan</b></dt>
+      <dd>Melhor roteiro adaptado</dd>
+      <dt><b>- Pantera Negra</b></dt>
+      <dd>Melhor trilha sonora</dd>
+      <dt><b>- Homem-Aranha: No Aranhaverso</b></dt>
+      <dd>Melhor filme de animação</dd>
+      <dt><b>- Roma</b></dt>
+      <dd>Melhor fotografia</dd>
+      <dt><b>- Bohemian Rhapsody</b></dt>
+      <dd>Melhor edição e mixagem de som</dd>
+      <dt><b>- Vice</b></dt>
+      <dd>Melhor maquiagem e penteado</dd>
+      <dt><b>- Bao</b></dt>
+      <dd>Melhor curta-metragem de animação</dd>
+  </dl>
+</dl>
+
+<style>
+table, td, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #B0E2FF;
+}
+th, td {
+   padding: 5px;
+   text-align: center;   
+}
+</style>
+<table style="width=100%" border value="solid">
+ <caption><b>Tabela de séries</b></caption>
+<tr>
+  <th>Nome</th>
+  <th>Gênero</th>
+  <th>Temporadas</th>
+  <th>Ano</th>
+  <th>Nota IMDb</th>
+</tr>
+
+<tr>
+  <td>Breaking Bad</td>
+  <td>Drama, Suspense, Filme policial, Ficção policial, humor negro</td>
+  <td rowspan="2">5</td>
+  <td>2008</td>
+  <td>9,4</td>
+</tr>
+<tr>
+<td>Prison Break</td>
+<td>Folhetim televisivo, Suspense, Ficção policial, Filme de ação,<br>Filme de aventura, Dramatic programming,
+    Drama, Mistério, Ação</td>
+<td rowspan="3">2005</td>
+<td>8,4</td>
+</tr>
+
+<tr>
+ <td>Criminal Minds</td>
+ <td>Policial processual, Suspense, Ação, Drama</td>
+ <td>14</td>
+ <td>6,4</td>
+</tr>
+
+<tr>
+<td>Grey's Anatomy</td>
+<td>Drama médico, Romance</td>
+<td>15</td>
+<td>7,6</td>
+</tr>
+
+<tr>
+<td>Friends</td>
+<td>Comédia, Sitcom, Romance</td>
+<td>10</td>
+<td>1994</td>
+<td rowspan="3">8,8</td>
+</tr>
+
+<tr>
+<td>A Maldição da Residência Hill</td>
+<td>Terror, Drama</td>
+<td>1</td>
+<td>2018</td>
+</tr>
+
+<tr>
+ <td>Stranger Things</td>
+ <td>Ficção científica, Ficção supernatural, Terror, Obra de época</td>
+ <td>2</td>
+ <td rowspan="2">2016</td>
+</tr>
+
+<tr>
+ <td>This Is Us</td>
+ <td>Drama, Romance, Comédia drástica</td>
+ <td>3</td>
+ <td>8,7</td>
+</tr>
+
+<tr>
+<td>Game Of Thrones</td>
+<td>Folhetim televisivo, Suspense, Fantasia medieval, Terror, Filme de aventura,<br>Fantasy television,
+ Drama, Aventura, Ação,<br>Filme de ação, Filme épico, Interesse especial</td>
+<td>8</td>
+<td>2011</td>
+<td>9,5</td>
+</tr>
+
+<tr>
+<td>Um Maluco no Pedaço</td>
+<td>Sitcom, Comédia</td>
+<td>6</td>
+<td>1990</td>
+<td>7,9</td>
+</tr>
+</table>
+
+<h2>Quiz</h2>
+<p>Agora sobre a tabela e listas vistas acima.<br> Preencha o formulário abaixo.</p>
+
+<form>
+  Nome de um filme que você ainda não viu:<br>
+   <input type="text" size=35 maxlength=30 name="nome" value="">
+   <br>
+   <br>   
+   O ano da série que você menos gosta:<br>
+   <input type="password" name="senha" size=10 maxlength=7>
+   <br>
+   <br>
+   Descreva a resenha do filme que você mais gosta:<br>   
+   <textarea name="menssagem" rows="10" cols="50"></textarea>
+   <br>
+   <br>
+   Escolha 3 gêneros favoritos:<br>
+   <input type="checkbox" name="genero" value="Comédia">Comédia<br>
+   <input type="checkbox" name="genero" value="Terror">Terror<br>
+   <input type="checkbox" name="genero" value="Romance">Romance<br>
+   <input type="checkbox" name="genero" value="Suspense">Suspense<br>
+   <input type="checkbox" name="genero" value="Drama">Drama<br>
+   <input type="checkbox" name="genero" value="Aventura">Aventura<br>
+   <input type="checkbox" name="genero" value="Ação">Ação<br>
+   <input type="checkbox" name="genero" value="Animação">Animação<br>
+   <input type="checkbox" name="genero" value="Documentário">Documentário<br>
+   <br>
+   Escolha qual seu filme favorito dentre os que estão abaixo:<br>
+   <input type="radio" name="filme" value="comedia">Simplesmente Acontece<br>
+   <input type="radio" name="filme" value="real">Intocáveis<br>
+   <input type="radio" name="filme" value="drama">Sempre ao Seu lado<br>
+   <input type="radio" name="filme" value="ficcao">O Senhor dos Anéis<br>
+   <input type="radio" name="filme" value="ação">Pulp Fiction<br>
+   <input type="radio" name="filme" value="romance">O Melhor de Mim<br>
+   <br>
+   Selecione a série que você quer ver:<br>
+   <select name="serie">
+     <option value="BB">Breaking Bad</option>
+     <option value="PB">Prison Break</option>
+     <option value="GA">Grey's Anatomy</option>
+     <option value="Fd">Friends</option>
+     <option value="ST">Stranger Things</option>
+     <option value="MRH">A Maldição da Residência Hill</option>
+     <option value="GoT">Game Of Thrones</option>
+     <option value="TiU">This Is Us</option>
+     <option value="CM">Criminal Minds</option>
+     <option value="MnP">Um Maluco no Pedaço</option>
+   </select>
+   <br>
+   <br>
+   Selecione 3 opções da quantidade ideal de temporadas pra você:<br>
+   <select name="temp" size="7" multiple>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="5">5</option>
+     <option value="7">7</option>
+     <option value="10">10</option>
+     <option value="13">13</option>
+     <option value="15">15</option>
+   </select>
+   <br><br>
+   <input type="submit">   
+   <input type="reset">
+</form>
+</body>
+</html>
+
+
+
+
+
+
